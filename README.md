@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+# 🚗 VIU Rent Car
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and responsive car rental web application built with **React**.
 
-## Available Scripts
+This project showcases a complete frontend experience for a car rental service, including car listings, details pages, blog sections, and navigation flows.
 
-In the project directory, you can run:
+The focus of this project is **UI, layout, routing, and component structure**, not backend or real booking logic.
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Home page with hero section and car search
+- Car listings with pricing and specifications
+- Car details pages
+- Blog and blog detail pages
+- About and Contact pages
+- Responsive layout
+- Reusable UI components
+- Client-side routing
+- Deployed and accessible online
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- React
+- React Router DOM
+- Bootstrap / Reactstrap
+- Slick Carousel
+- JavaScript (ES6)
+- CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section About [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📦 Project Structure
 
-### `npm run build`
+```
+src/
+├── assets/         # Images and static assets
+├── components/     # Reusable components (Header, Footer, Layout, UI)
+├── pages/          # Application pages (Home, Cars, Blog, Contact, etc.)
+├── routers/        # Routing configuration
+├── styles/         # Global and component styles
+├── App.js          # App entry point
+├── index.js        # React DOM render
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️ Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the repository:
 
-See the section About [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/AlexisDevelopers/viu-rent-car.git
+```
 
-### `npm run eject`
+Navigate to the project directory:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+cd viu-rent-car
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Start the development server:
 
-## Learn More
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The application will run at:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+http://localhost:3000
+```
 
-### Code Splitting
+## 🚀 Available Scripts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- `npm start` – Runs the app in development mode
+- `npm run build` – Builds the app for production
+- `npm test` – Runs tests (default CRA setup)
 
-### Analyzing the Bundle Size
+## 🌍 Live Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+You can view the deployed project here:
 
-### Making a Progressive Web App
+👉 https://viu-rent-car.netlify.app/home
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🧠 Technical Notes
 
-### Advanced Configuration
+- This project uses Create React App
+- Routing is handled using React Router
+- Data is mocked and static
+- No authentication, payments, or backend services are implemented
+- Designed as a solid base to evolve into a full-stack application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🗺️ Possible Improvements
 
-### Deployment
+- Backend integration (API)
+- Authentication system
+- Real booking and availability logic
+- Admin dashboard
+- Payment integration
+- State management (Redux / Context API)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 👤 Author
 
-### `npm run build` fails to minify
+**Alexis De Los Santos**  
+Frontend / Software Engineer
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- GitHub: https://github.com/AlexisDevelopers
+- LinkedIn: https://www.linkedin.com/in/alexis-de-los-santos-baez/
+
+## 📝 License
+
+This project is licensed under the MIT License.
