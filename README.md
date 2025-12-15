@@ -82,7 +82,7 @@ http://localhost:3000
 
 You can view the deployed project here:
 
-👉 https://viu-rent-car.netlify.app/home
+👉 [https://viu-rent-car.netlify.app/home](https://rent-car-page.netlify.app/home)
 
 ## 🧠 Technical Notes
 
@@ -107,7 +107,7 @@ You can view the deployed project here:
 Frontend / Software Engineer
 
 - GitHub: https://github.com/AlexisDevelopers
-- LinkedIn: https://www.linkedin.com/in/alexis-de-los-santos-baez/
+- LinkedIn: [https://www.linkedin.com/in/alexisdelossantos/](https://www.linkedin.com/in/alexisdelossantos/)
 
 ## 📝 License
 
